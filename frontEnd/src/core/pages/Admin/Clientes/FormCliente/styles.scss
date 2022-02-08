@@ -1,0 +1,72 @@
+.col-form-label {
+  display: flex;
+  justify-content: flex-start;
+}
+.cadastro-cliente-container {
+  border-radius: 20px;
+}
+.card-cadastro-cliente-container {
+  background: #fff;
+  flex: 1;
+  margin: 20px;
+
+  padding: 30px 120px 30px 120px;
+
+  display: flex;
+  flex-direction: column;
+
+  .cadastro-cliente-title-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .campo-telefone {
+    display: inline-flex;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+
+  .campo-endereco {
+    display: inline-flex;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+
+  .campo-endereco-ultimos {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .lista-card {
+    padding: 15px;
+    margin-top: 15px;
+  }
+
+  .botao-add-lista {
+    margin-left: 50px;
+  }
+
+  .botao-delete-end {
+    width: fit-content;
+  }
+
+  .endereco-select__control {
+    height: 35px;
+    width: 345px;
+  }
+
+  .telefone-select__control {
+    width: 250px;
+  }
+
+  .checkStatus {
+  }
+
+  .campo-cartao {
+    display: inline-flex;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+}
