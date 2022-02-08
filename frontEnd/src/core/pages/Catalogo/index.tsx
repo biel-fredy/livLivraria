@@ -4,7 +4,7 @@ import './styles.css';
 import { Livro } from 'core/types/livro';
 import { Link } from 'react-router-dom';
 
-const Catalog = () => {
+const Catalogo = () => {
   const livro: Livro = {
     id: 1,
     preco: 22,
@@ -25,4 +25,4 @@ const Catalog = () => {
   );
 };
 
-export default Catalog;
+export default Catalogo;

@@ -7,8 +7,8 @@ import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
 import CadastroCliente from './core/components/Cadastros/CadastroCliente';
 import Header from './core/components/Header';
 import Admin from './core/pages/Admin';
-import Catalog from './core/pages/Catalog';
-import DetalhamentoProduto from './core/pages/Catalog/components/DetalhamentoProduto';
+import Catalog from './core/pages/Catalogo';
+import DetalhamentoProduto from './core/pages/Catalogo/components/DetalhamentoProduto';
 
 function Routes() {
   return (

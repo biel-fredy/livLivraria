@@ -17,6 +17,7 @@
     "@types/react-select": "^4.0.17",
     "axios": "^0.21.1",
     "bootstrap": "^5.1.1",
+    "mobx": "^6.3.13",
     "node-sass": "^5.0.0",
     "react": "17.0.2",
     "react-bootstrap": "^1.5.1",
